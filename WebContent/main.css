@@ -1,0 +1,76 @@
+@charset "UTF-8";
+<style>
+	body {
+		background-color: ＃C0C0C0;
+	}
+	a {
+		text-decoration: none;
+	}
+	.header {
+		position: relative;
+	}
+	.header__logo {
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	.header__title {
+		text-align: center;
+		margin-top:20px;
+		font-style: Times New Roman;
+	}
+	.header__account {
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+	.testMainMenu {
+	   font-size: 44px;
+	   font-style: Times New Roman;
+	   margin-top:30px;
+	   text-align: center;
+	   color:#780000;
+	}
+	.testRegisterAndLogin{
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	.testCopyright {
+	   font-size: 15px;
+	   color: #780000;
+	   font-style: Times New Roman;
+	   position: absolute;
+	   bottom: 0px;
+	   width: 100%;
+	   text-align: center;   
+	}
+		.course__index{
+	   font-size: 20px;
+	   margin-top:40px;
+	   font-style: Times New Roman;
+	   text-align:center;
+	   color:#FFFFFF;
+	}
+	 li a:hover {
+    background-color: #555;
+    color: white;
+	 }
+	/* 下拉菜单 */
+	.dropdown {
+	  position: relative;
+	  display: inline-block;
+	}
+	.dropdown-content {
+	  display: none;
+	  position: absolute;
+	  background-color: #e8cabc;
+	  min-width: 160px;
+	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	  padding: 12px 16px;
+	  color:#000000
+	}
+	.dropdown:hover .dropdown-content {
+	  display: block;
+	}
+</style>
